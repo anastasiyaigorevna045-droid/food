@@ -1,0 +1,32 @@
+Структура проекта «Food»
+===================================
+
+/frontend
+    index.html          — главная страница
+    catalog.html        — каталог рецептов
+    recipe.html         — страница рецепта
+    /css
+        style.css       — основные стили
+        responsive.css  — адаптивная вёрстка
+    /js
+        search.js       — поиск и фильтры
+        favorites.js    — избранное
+        comments.js     — комментарии
+
+/backend
+    app.py              — точка входа сервера
+    models.py           — модели БД (users, recipes, ingredients...)
+    routes.py           — маршруты (каталог, поиск, рецепт, избранное)
+    db.sql              — скрипт создания базы данных
+
+/assets
+    /images             — фотографии блюд
+    /uploads            — загруженные пользователями фото
+    logo.png            — логотип проекта
+
+/docs
+    ТЗ_Food.docx
+    ER_диаграмма.png
+    Макет_главной.png
+
+README.md               — описание проекта и инструкция запуска
